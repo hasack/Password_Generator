@@ -4,7 +4,7 @@ Console.Write("Password length (int): ");
 
 int num = int.Parse(Console.ReadLine());
 
-Console.Write("Password length (Y/N): ");
+Console.Write("Include numbers? (Y/N): ");
 char include_numbers = char.Parse(Console.ReadLine());
 
 Console.Write("Include Symbols (Y/N): ");
@@ -15,7 +15,7 @@ char include_caps = char.Parse(Console.ReadLine());
 
 string options = "abcdefghijklmnopqrstuvwxyz";
 string numbers = "0123456789";
-string symbols = "!@€£#$%^&*()-_=+[]{};':\"|\\,.<>/?`~§±";
+string symbols = "!@€£#$%^&*()-_=+[]{};':\"|\\,.<>/?`~";
 string caps = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 if (include_numbers == 'y')
