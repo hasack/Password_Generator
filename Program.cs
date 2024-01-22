@@ -4,7 +4,7 @@ Console.Write("Password length (int): ");
 
 int num = int.Parse(Console.ReadLine());
 
-Console.Write("Include numbers? (Y/N): ");
+Console.Write("Include numbers (Y/N): ");
 char include_numbers = char.Parse(Console.ReadLine());
 
 Console.Write("Include Symbols (Y/N): ");
